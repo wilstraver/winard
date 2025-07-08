@@ -1,4 +1,4 @@
-# winard
+# Winard
 Window for arduino.
 
 This program, written in Python, creates a window on your PC that works like a touch screen (display).
@@ -10,82 +10,48 @@ Write some code, for example
 
 Upload the code to the micro controller.
 
-
-
-[Upl<!DOCTYPE html>
+[Up<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 24.2.7.2 (Linux)"/>
-	<meta name="created" content="2025-07-08T20:45:01.312585951"/>
-	<meta name="changed" content="2025-07-08T20:46:11.106994699"/>
-	<style type="text/css">
-		@page { size: 210.01mm 297mm; margin: 20mm }
-		p { line-height: 115%; margin-bottom: 2.47mm; background: transparent }
-	</style>
+<title>Winard</title>
+<meta name="generator" content="Bluefish 2.2.15" >
+<meta name="author" content="Wil" >
+<meta name="date" content="2025-07-08T21:27:13+0200" >
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
 </head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><p style="line-height: 100%; margin-bottom: 0mm">
-# winard</p>
-<p style="line-height: 100%; margin-bottom: 0mm">Window for arduino.</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
+<body>
+# Winard<br>
+Window for arduino.<br>
 
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">This program,
-written in Python, creates a window on your PC that works like a
-touch screen (display).</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
+This program, written in Python, creates a window on your PC that works like a touch screen (display).<br>
 
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">How to proceed.</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
+How to proceed.<br><br>
+Write some code, for example<br>
+#include <winard.h><br>
+void setup( )  <br>
+{ Serial.begin(115200);   <br>
+  build_up();<br>
+}<br>
+void loop( ) {;}<br>
+void build_up()<br>
+{ tx_02(PRINTBUILD,1);<br>
+  tx_str(TEXT,"Winard");<br> 
+  tx_04(ROOT,0,240,160);<br>
+  tx_str(TEXT,"button");<br>
+  tx_06(BUTTON,6,ROOT,0,80,20);<br>
+  tx_02(PRINTOBJECTS,1);<br>
+}<br>
 
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">Write some code, for
-example</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
-
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">#include &lt;winard.h&gt;</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
-
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">void setup( )  
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">{
-Serial.begin(115200);   
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">  build_up();</p>
-<p style="line-height: 100%; margin-bottom: 0mm">}</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
-
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">void loop( ) {;}</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
-
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">void build_up()</p>
-<p style="line-height: 100%; margin-bottom: 0mm">{
-tx_02(PRINTBUILD,1);</p>
-<p style="line-height: 100%; margin-bottom: 0mm"> 
-tx_str(TEXT,&quot;Winard&quot;); 
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm"> 
-tx_04(ROOT,0,240,160);</p>
-<p style="line-height: 100%; margin-bottom: 0mm"> 
-tx_str(TEXT,&quot;button&quot;);</p>
-<p style="line-height: 100%; margin-bottom: 0mm"> 
-tx_06(BUTTON,6,ROOT,0,80,20);;</p>
-<p style="line-height: 100%; margin-bottom: 0mm"> 
-tx_02(PRINTOBJECTS,1);</p>
-<p style="line-height: 100%; margin-bottom: 0mm">}</p>
-<p style="line-height: 100%; margin-bottom: 0mm"><br/>
-
-</p>
-<p style="line-height: 100%; margin-bottom: 0mm">Upload the code to
-the micro controller.</p>
+Upload the code to the micro controller.<br>
+<img src="../manual/buttons.png" width="264" height="230" alt="">
 </body>
-</html>oading test 1.html…]()
-
+</html>loading winard.html…]()
 
 
