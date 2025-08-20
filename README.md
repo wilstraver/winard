@@ -1,4 +1,4 @@
-# Winard
+# Winard 
 
 This program, written in Python, creates a window on your PC that works like a touch screen (display).<br>
 
