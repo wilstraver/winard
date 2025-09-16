@@ -308,21 +308,21 @@ def configWidget():
     elif dest==39:
         Bag.dest = Bag.notebook+str(Bag.data[3])+".TNotebook"
         if  Bag.data[1]==1: Bag.dest = Bag.dest+".Tab"
-        print("Bag.dest",Bag.dest)        
+#        print("Bag.dest",Bag.dest)        
     elif dest==40:
         Bag.dest = Bag.tab+str(Bag.data[3])+".TNotebook"
         if  Bag.data[1]==1: Bag.dest = Bag.dest+".Tab"
-        print("Bag.dest",Bag.dest)  
+#        print("Bag.dest",Bag.dest)  
     elif dest==41:
 #        Bag.dest = Bag.root+str(Bag.data[3])+".T."
         Bag.dest = "." 
-        print("C root")      
+#        print("C root")      
 # temporary solution for root background color:
         if Bag.data[4]==89:
             Objects.Root0.configure(background=Bag.color2)
     elif dest==42:
         Bag.dest = Bag.tab+str(Bag.data[3])+".TToplevel"  
-        print("C top")  
+#        print("C top")  
 # temporary solution for toplevel background color:    
         if Bag.data[4]==89:
             tpl="Toplevel"+str(Bag.data[3])
@@ -357,7 +357,7 @@ def configAtribute():          ##  configure atribute  ##
     elif conf_atr==82:
         Bag.config   = "tabposition"
         Bag.atribute = Bag.position
-        print("tabposition")   
+#        print("tabposition")   
     elif conf_atr==83:
         Bag.config   = "width"
         Bag.atribute = Bag.width1       
