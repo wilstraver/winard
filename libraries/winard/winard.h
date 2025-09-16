@@ -64,7 +64,8 @@
 # define ARROWS        68
 # define NLINES        69
 # define ARCSHAPE      70  //
-# define RELIEF1       71  // flat, groove, raised, ridge, solid, sunken
+# define RELIEF        71  // flat, groove, raised, ridge, solid, sunken
+# define RELIEF1       71
 # define RELIEFTROUGH  72 
 # define RELIEF2       73 
 # define RELIEFSLIDER  73 
