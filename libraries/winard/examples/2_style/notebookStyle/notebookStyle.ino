@@ -10,14 +10,14 @@ void loop() {;}
 void build_up()
 { tx_02(PRINTBUILD,1); 
   tx_str(TEXT,"Winard");
-  tx_04(ROOT,0,320,240); 
+  tx_04(ROOT,0,240,160); 
 
 // the tabs start with tab 0, 
 // the next, tab 1 , tab 2, etc.
 
   tx_str(TEXT,"D,E,F"); 
   tx_02(POSITION,0);
-  tx_08(NOTEBOOK,2,ROOT,0,50,20,210,180);
+  tx_08(NOTEBOOK,2,ROOT,0,15,5,210,140);
   tx_str(TEXT,"this is tab D");
   tx_06(LABEL,14,TAB,0,10,35);   
   tx_str(TEXT,"this is tab E"); 
