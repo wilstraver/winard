@@ -10,7 +10,7 @@ void loop( ) {;}
 
 void build_up()
 { tx_02(PRINTBUILD,1);
-  int x=240, y=120;
+  int x=240, y=160;
   
   tx_str(TEXT,"Winard 0");
   tx_04(ROOT,0,x,y);
