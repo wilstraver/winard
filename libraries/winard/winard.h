@@ -154,73 +154,73 @@ char print_str[64];
 void tx_02(int a,int b)
 { sprintf(print_str,"%d,%d,",a,b);
   Serial.println(print_str);
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_03(int a,int b,int c)
 { sprintf(print_str,"%d,%d,%d,",a,b,c);
   Serial.println(print_str); 
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_04(int a,int b,int c,int d)
 { sprintf(print_str,"%d,%d,%d,%d,",a,b,c,d);
   Serial.println(print_str); 
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_05(int a,int b,int c,int d,int e)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,",a,b,c,d,e);
   Serial.println(print_str); 
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_06(int a,int b,int c,int d, int e,int f)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,",a,b,c,d,e,f);
   Serial.println(print_str); 
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_07(int a,int b,int c,int d,int e, int f,int g)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_08(int a,int b,int c,int d,int e,int f, int g,int h)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g,h);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_09(int a,int b,int c,int d,int e,int f, int g,int h,int i)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g,h,i);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_10(int a,int b,int c,int d,int e,int f,int g, int h,int i,int j)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g,h,i,j);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_11(int a,int b,int c,int d,int e,int f,int g,int h, int i,int j,int k)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g,h,i,j,k);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_12(int a,int b,int c,int d,int e,int f,int g,int h, int i,int j,int k,int l)
 { sprintf(print_str,"%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,", a,b,c,d,e,f,g,h,i,j,k,l);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 void tx_str(int a,const char *str)
 { sprintf(print_str,"%d,%s", a,str);
   Serial.println(print_str);  
-//  delay(DELAY);
+  delay(DELAY);
 }
 
 String str1;
