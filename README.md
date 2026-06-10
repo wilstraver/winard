@@ -8,6 +8,7 @@ Write some code, for example:<br>
 #include &ltwinard.h&gt
 void setup()
 { Serial.begin(115200);
+  startup();
   tx_str(TEXT,"Winard");
   tx_04(ROOT,0,240,160);
   tx_str(TEXT,"button");
