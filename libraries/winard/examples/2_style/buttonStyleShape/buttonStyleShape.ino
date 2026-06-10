@@ -1,0 +1,56 @@
+
+#include <winard.h>
+  
+void setup( )  
+{ Serial.begin(115200);  
+  startup(); 
+  build_up();
+}
+
+void loop( ) {;}
+
+void build_up()
+{ tx_02(PRINTBUILD,1);
+  tx_str(TEXT,"Winard"); 
+  tx_04(ROOT,0,320,240);
+
+  tx_str(TEXT,"text");
+  tx_06(BUTTON,3,ROOT,0,10,20);
+  tx_06(BUTTON,4,ROOT,0,10,75);
+  tx_06(BUTTON,5,ROOT,0,10,130);
+  
+  tx_06(BUTTON,13,ROOT,0,125,20);
+  tx_06(BUTTON,14,ROOT,0,125,75);
+  tx_06(BUTTON,15,ROOT,0,125,130);
+  
+  tx_06(BUTTON,23,ROOT,0,240,20);
+  tx_06(BUTTON,24,ROOT,0,240,75);  
+  tx_06(BUTTON,25,ROOT,0,240,130); 
+
+  tx_02(BORDERWIDTH,3);
+  tx_05(STYLE,0,BUTTON,4,BORDERWIDTH);
+  tx_02(BORDERWIDTH,5);
+  tx_05(STYLE,0,BUTTON,5,BORDERWIDTH);
+  
+  tx_02(BORDERWIDTH,0);
+  tx_05(STYLE,0,BUTTON,13,BORDERWIDTH);
+  tx_02(BORDERWIDTH,3);
+  tx_05(STYLE,0,BUTTON,14,BORDERWIDTH);
+  tx_02(BORDERWIDTH,5);
+  tx_05(STYLE,0,BUTTON,15,BORDERWIDTH);
+  
+  tx_02(WIDTH,5);
+  tx_05(STYLE,0,BUTTON,14,WIDTH);
+  tx_02(WIDTH,8);
+  tx_05(STYLE,0,BUTTON,15,WIDTH);
+
+  tx_02(WIDTH,2);
+  tx_05(STYLE,0,BUTTON,23,WIDTH);
+  tx_02(WIDTH,5);
+  tx_05(STYLE,0,BUTTON,24,WIDTH);
+  tx_02(WIDTH,8);
+  tx_05(STYLE,0,BUTTON,25,WIDTH);
+
+  tx_02(PRINTOBJECTS,1);
+  tx_02(PRINTBUILD,2);
+}
